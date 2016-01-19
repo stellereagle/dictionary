@@ -1,4 +1,7 @@
 <head>
+  <?php session_start(); if(isset($_SESSION['id'])){
+  include('header.inc.php');
+  }
   <link rel='stylesheet' type='text/css' href='css/index.css' />
   <script type="text/javascript" src='js/index.js' > </script>
     <title>Beautiful Dictionary</title>
