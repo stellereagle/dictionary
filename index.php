@@ -1,5 +1,6 @@
 <head>
-  <?php session_start(); if(isset($_SESSION['id'])){
+  <?php session_start();  require('connection.inc.php');
+  if(isset($_SESSION['id'])){
   include('header.inc.php');
   }
   <link rel='stylesheet' type='text/css' href='css/index.css' />
